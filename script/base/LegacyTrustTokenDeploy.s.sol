@@ -45,7 +45,7 @@ contract LegacyTrustTokenDeploy is SetupScript {
     }
 
     function _deploy() internal {
-        proxyAdmin = new ProxyAdmin();
+        proxyAdmin = new ProxyAdmin(msg.sender);
         info("Proxy Admin OZ V4", address(proxyAdmin));
 
         legacyTrustTokenImpl = new TrustToken();

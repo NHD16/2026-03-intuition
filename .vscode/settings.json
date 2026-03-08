@@ -7,6 +7,15 @@
         "@openzeppelinV4/contracts-upgradeable/=node_modules/@openzeppelin/contracts-upgradeable/",
         "solady/=lib/solady/src/",
         "@prb/math/=lib/prb-math/",
-        "@account-abstraction/=lib/account-abstraction/contracts/"
+        "@account-abstraction/=lib/account-abstraction/contracts/",
+        "contracts/=intuition-contracts-v2-periphery/contracts/",
+        "permit2/=lib/permit2/src/",
+        "account-abstraction/=lib/account-abstraction/contracts/",
+        "erc4626-tests/=lib/openzeppelin-contracts-upgradeable/lib/erc4626-tests/",
+        "halmos-cheatcodes/=lib/openzeppelin-contracts-upgradeable/lib/halmos-cheatcodes/src/",
+        "openzeppelin-contracts-upgradeable/=lib/openzeppelin-contracts-upgradeable/",
+        "openzeppelin-contracts/=lib/openzeppelin-contracts/",
+        "openzeppelin-foundry-upgrades/=lib/openzeppelin-foundry-upgrades/src/",
+        "prb-math/=lib/prb-math/src/"
     ]
 }

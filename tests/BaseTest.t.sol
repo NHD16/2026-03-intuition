@@ -389,7 +389,7 @@ abstract contract BaseTest is Modifiers, Test {
 
         for (uint256 i = 0; i < allUsers.length; i++) {
             resetPrank({ msgSender: allUsers[i] });
-            protocol.trust.approve({ spender: address(protocol.multiVault), amount: MAX_UINT256 });
+            protocol.trust.approve({ spender: address(protocol.multiVault), value: MAX_UINT256 });
             deal({ token: address(protocol.trust), to: allUsers[i], give: 1_000_000e18 });
             deal({ token: address(protocol.wrappedTrust), to: allUsers[i], give: 1_000_000e18 });
         }
